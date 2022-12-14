@@ -14,8 +14,6 @@
 .header {
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   overflow: hidden;
   height: 100vh;
   min-height: 600px;
@@ -35,11 +33,7 @@
 }
 
 .header__title{
-  position: absolute;
-  z-index: 1;
-  top: 225px;
-  display: inline-flex;
-  align-self:flex-start;
+  align-self:center;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
@@ -56,14 +50,12 @@
   font-size: 18px;
   font-weight: normal;
   width: 388px;
+  margin: 0 auto;
 
 }
 
 .header__link{
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  bottom: -21px;
+  display: flex;
   text-decoration: none;
   color: #2f80ed;
 }
@@ -84,16 +76,13 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-
 }
 
 .description{
  display: flex;
- justify-content: space-around;
+ justify-content: center;
  align-items: center;
- margin-top: 100px;
- margin-bottom: 100px;
- min-width: 784px;
+ margin: 100px 0;
 }
 
 .two-columns{
@@ -108,22 +97,25 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .two-columns__main-text{
   display: flex;
   flex-direction: column;
   gap: 30px;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
+  min-width: 784px;
   width: 80%;
 
 }
 
 .two-columns__paragraph{
- margin: 0 auto;
+ margin: 0;
+ line-height: 1.2;
+ font-size: 18px;
+ font-weight: normal;
+ margin: 0;
+
 }
 
 .two-columns__span-accent{
@@ -187,13 +179,6 @@
   margin: 20px 0 0;
 }
 
-.table__reference_text{
-  margin-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
 .feynman{
   position: relative;
   z-index: -1;
@@ -243,13 +228,6 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
-}
-
-.main-test{
-  position: absolute;
-  left: 409px;
-  top: 313vh;
-  width: auto;
 }
 
 .kaufman{
@@ -327,9 +305,10 @@
 .footer__column{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
+
 .footer__column_content_copyright{
+  justify-content: space-between;
   flex-basis: 711px;
 }
 
@@ -360,17 +339,17 @@
 }
 
 .footer__column_content_about{
-  justify-content: flex-start;
   row-gap: 20px;
 }
 
 .footer__column_content_social{
-  justify-content: flex-start;
   row-gap: 20px;
 }
 
 .footer__social-icons{
   margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__list{

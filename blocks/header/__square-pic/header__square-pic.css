@@ -1,0 +1,30 @@
+@keyframes rotation{
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move_x{
+  0%{
+    right: 120px;
+  }
+  100%{
+    right: 0;
+  }
+}
+
+.header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  transform: rotate(-15deg);
+  animation: move_x 2s linear infinite alternate,rotation 20s ease-in-out;
+
+
+}

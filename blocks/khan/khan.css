@@ -1,0 +1,7 @@
+.khan{
+  display: flex;
+  overflow: hidden;
+  padding-top: 105px;
+  margin-bottom: 0;
+  background-color: #f2f2f2;
+}

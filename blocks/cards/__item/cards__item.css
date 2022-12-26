@@ -1,5 +1,7 @@
-.techniques{
+.cards__item{
   display: flex;
   flex-direction: column;
+  width: 240px;
+  text-align: center;
   align-items: center;
 }

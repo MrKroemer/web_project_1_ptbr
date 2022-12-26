@@ -5,4 +5,5 @@
   z-index: -1;
   width: 660px;
   height: 636px;
+  animation: move_x 2s linear infinite alternate, rotation 20s ease-in-out;
 }

@@ -1,0 +1,4 @@
+.resources__logo_link_transparent:hover{
+  opacity: 0.5;
+  transform: translateY(-8px);
+}

@@ -1,20 +1,23 @@
-/* rotation's elements */
+/* normalize elements */
+@import url('../blocks/normalize/normalize.css');
+
+/* rotation elements */
 @import url('../blocks/rotation/rotation.css');
 
 /* page element */
 @import url('../blocks/page/page.css');
 
-/* Header's elements */
+/* link elements */
+@import url('../blocks/link/__opacity_smooth/link__opacity_smooth.css');
+
+/* Header elements */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__title/header__title.css');
 @import url('../blocks/header/__subtitle/header__subtitle.css');
 @import url('../blocks/header/__main-illustration/header__main-illustration.css');
 @import url('../blocks/header/__link/header__link.css');
-@import url('../blocks/header/__images/logo/logo_place_header.css');
+@import url('../blocks/logo/__place/_header/logo_place_header.css');
 @import url('../blocks/header/__square-pic/header__square-pic.css');
-
-/* logo elements */
-@import url('../blocks/logo/logo_place_footer.css');
 
 /* content elements */
 @import url('../blocks/content/content.css');
@@ -32,16 +35,16 @@
 @import url('../blocks/cards/__item/cards__item.css');
 @import url('../blocks/cards/__image/cards__image.css');
 
-/* video's elements */
+/* video elements */
 @import url('../blocks/video/video.css');
 @import url('../blocks/video/__iframes/video__iframes.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
 
 /* Oakley's elements */
 @import url('../blocks/oakley/oakley.css');
-@import url('../blocks/oakley/__back/_color_gray/oakley__back_color_gray.css');
+@import url('../blocks/oakley/__back/oakley__back-square.css');
 
-/* feynman elements */
+/* feynman's elements */
 @import url('../blocks/feynman/feynman.css');
 @import url('../blocks/feynman/__title/feynman__title.css');
 @import url('../blocks/feynman/__subtitle/feynman__subtitle.css');
@@ -70,7 +73,7 @@
 @import url('../blocks/khan/__book-pic/khan__book-pic.css');
 @import url('../blocks/khan/__buy-link/khan__buy-link.css');
 
-/* kaufman elements */
+/* kaufman's elements */
 @import url('../blocks/kaufman/kaufman.css');
 @import url('../blocks/kaufman/__triangle/kaufman__triangule.css');
 
@@ -78,6 +81,7 @@
 @import url('../blocks/resources/resources.css');
 @import url('../blocks/resources/__logo-zone/resources__logo-zone.css');
 @import url('../blocks/resources/__logo/resources.logo.css');
+@import url('../blocks/resources/__logo/_link_transparent/resources__logo_link_transparent.css');
 
 /* section titles elements */
 @import url('../blocks/section/title/section-title.css');
@@ -94,8 +98,6 @@
 @import url('../blocks/table/__text/table__text.css');
 @import url('../blocks/table/__text/_theme_dark/table__text_theme_dark.css');
 
-
-
 /* footer elements */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__author/footer__author.css');
@@ -108,4 +110,5 @@
 @import url('../blocks/footer/__column/_content_social');
 @import url('../blocks/footer/__column/_content_social/footer__column_content_social.css');
 @import url('../blocks/footer/__list/footer__list.css');
-@import url('../blocks/footer/__social-icons/footer__social-icons.css')
+@import url('../blocks/footer/__social-icons/footer__social-icons.css');
+@import url('../blocks/logo/__place/_footer/logo_place_footer.css');

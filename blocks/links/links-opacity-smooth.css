@@ -1,8 +1,8 @@
-.link__opacity_smooth{
+.links-opacity-smooth{
   opacity: 1;
   transition: opacity 1s linear;
 }
 
-.link__opacity_smooth:hover{
+.links-opacity-smooth:hover{
   opacity: 0.5;
 }

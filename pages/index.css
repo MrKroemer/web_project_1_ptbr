@@ -8,7 +8,7 @@
 @import url('../blocks/page/page.css');
 
 /* link elements */
-@import url('../blocks/link/__opacity_smooth/link__opacity_smooth.css');
+@import url('../blocks/links/links-opacity-smooth.css');
 
 /* Header elements */
 @import url('../blocks/header/header.css');
